@@ -1,0 +1,16 @@
+{
+  "name": "T212 Portfolio Summary Improvement",
+  "version": "1.0",
+  "description": "A more accurate portfolio summary on T212 web interface",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.trading212.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
